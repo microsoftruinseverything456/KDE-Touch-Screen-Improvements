@@ -1,0 +1,2 @@
+/usr/lib/qt6/plugins/kwin/effects/plugins/touchscreenimprovements.so
+/usr/lib/qt6/plugins/kwin/effects/configs/kwin_touchscreenimprovements_config.so

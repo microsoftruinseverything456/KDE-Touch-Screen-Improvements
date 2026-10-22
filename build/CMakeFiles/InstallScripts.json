@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/llama/Documents/Light_Files/Code/KDE/Plasma Keyboard/kwin-touch-screen-improvements/build/cmake_install.cmake",
+		"/home/llama/Documents/Light_Files/Code/KDE/Plasma Keyboard/kwin-touch-screen-improvements/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

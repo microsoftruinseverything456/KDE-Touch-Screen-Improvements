@@ -1,6 +1,6 @@
 # Touch Screen Improvements for KDE Plasma
 
-A KWin desktop effect that makes Plasma (Wayland) nicer to use on a touch screen.
+An experimental KWin desktop effect that makes Plasma (Wayland) nicer to use on a touch screen.
 
 - **Touch and hold to right-click.** Hold a finger still for a moment and lift it.
 - **Touch, hold and drag to highlight text word by word.** Lifting opens the right-click menu on the selection.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile arg="true"/>
+    <group name="Effect-touchscreenimprovements">
+        <entry name="LongPressSelect" type="Bool">
+            <label>Touch and hold, then drag, to highlight text word by word</label>
+            <default>true</default>
+        </entry>
+        <entry name="LongPressRightClick" type="Bool">
+            <label>Touch and hold to right-click</label>
+            <default>true</default>
+        </entry>
+        <entry name="TapToShowKeyboard" type="Bool">
+            <label>Only show the virtual keyboard after a deliberate tap on a text field</label>
+            <default>true</default>
+        </entry>
+        <entry name="HideKeyboardOnPhysicalInput" type="Bool">
+            <label>Hide the virtual keyboard when a mouse or physical keyboard is used</label>
+            <default>true</default>
+        </entry>
+        <entry name="SwipeUpForKeyboard" type="Bool">
+            <label>Swipe up from the bottom edge to show the virtual keyboard</label>
+            <default>true</default>
+        </entry>
+    </group>
+</kcfg>

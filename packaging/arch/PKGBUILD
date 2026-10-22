@@ -1,0 +1,23 @@
+# Builds from this checkout: run `makepkg -si` in this directory.
+# KWin has no stable plugin API: rebuild after every KWin update.
+
+pkgname=kwin-touch-screen-improvements
+pkgver=1.0.0
+pkgrel=1
+pkgdesc='KWin effect for touch screens: long press to right-click or select text, tap-only on-screen keyboard'
+arch=('x86_64' 'aarch64')
+license=('GPL-2.0-or-later')
+depends=('kwin' 'kcmutils' 'kconfig' 'kcoreaddons' 'qt6-base')
+makedepends=('cmake' 'extra-cmake-modules' 'vulkan-headers')
+
+build() {
+    cmake -B build -S "$startdir/../.." \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    cmake --build build
+}
+
+package() {
+    DESTDIR="$pkgdir" cmake --install build
+    install -Dm644 "$startdir/../../LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

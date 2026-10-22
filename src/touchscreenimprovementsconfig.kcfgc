@@ -1,0 +1,5 @@
+File=touchscreenimprovements.kcfg
+ClassName=TouchScreenImprovementsConfig
+Singleton=true
+Mutators=true
+SetUserTexts=true

@@ -1,0 +1,11 @@
+{
+    "KPlugin": {
+        "Category": "Tools",
+        "Description": "Touch and hold to right-click or highlight text, and only show the virtual keyboard after a deliberate tap",
+        "EnabledByDefault": true,
+        "License": "GPL-2.0-or-later",
+        "Name": "Touch Screen Improvements",
+        "Version": "1.0.0"
+    },
+    "X-KDE-ConfigModule": "kwin_touchscreenimprovements_config"
+}
